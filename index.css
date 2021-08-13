@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #3E3E3E;
+  font-family: 'Jost';
+}
+a {
+  text-decoration: none;
+}
+
+.CommentsItem p{
+  font-size: 20px;
+}
+.CommentsItem h3{
+  font-size: 26px;
+  color:#fff;
+}
+.MainBanner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2.7fr;
+      grid-template-columns: 1fr 2.7fr;
+  grid-gap: 24px;
+  height: 608px;
+}
+
+.MainBanner h3, .MainBanner h1, .MainBanner h4 {
+  color: #fff;
+}
+
+.MainBanner .Banner {
+  background-color: red;
+}
+
+.MainBanner .SpecialOffer {
+  background-color: red;
+  padding: 32px 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.MainBanner .SpecialOffer .bannerDescription {
+  margin-top: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 123px;
+}
+
+.MainBanner .SpecialOffer .bannerDescription h3 {
+  font-size: 80px;
+}
+
+.MainBanner .SpecialOffer .bannerDescription h4 {
+  font-size: 50px;
+}
+
+.buttonTransfer {
+  background-color: #fff;
+  color: #F0B643;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 46px;
+  width: 253px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.Banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.linkItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.catalogPanel {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 328px 328px;
+      grid-template-rows: 328px 328px;
+  grid-gap: 24px;
+      grid-template-areas: "skeyts staff staff"
+ "skeyts clothes shoes";
+}
+
+.catalogPanel .catalogPanelItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px 20px;
+}
+
+.catalogPanel .catalogPanelItem.Skeyts {
+  background-color: #F0B643;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: skeyts;
+}
+
+.catalogPanel .catalogPanelItem.Staff {
+  background-color: red;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: staff;
+}
+
+.catalogPanel .catalogPanelItem.Сlothes {
+  background-color: #836d43;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: clothes;
+}
+
+.catalogPanel .catalogPanelItem.Shoes {
+  background-color: #F0B643;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: shoes;
+}
+
+.conteiner {
+  padding: 0 80px;
+}
+
+.NewsItem {
+  background: #F0B643;
+}
+
+.NewsItemCart {
+  height: 712px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.NewsItemCart .NewsItemCartIllustration {
+  background-color: blueviolet;
+}
+
+.NewsItemCart .NewsItemCartDescription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 87px;
+  gap: 98px;
+}
+
+.NewsItemCartHeading h3 {
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+.NewsItemCartHeading h4 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+
+.hotOffer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 24px;
+}
+
+.hotOffer h4 {
+  font-size: 20px;
+}
+
+.hotOffer h5 {
+  font-size: 16px;
+}
+
+.hotOfferItem {
+  border: 1.5px solid #F0B643;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 16px;
+  position: relative;
+}
+
+.hotOfferItem hr {
+  width: 214px;
+  border-color: #F0B643;
+}
+
+.hotOfferItem .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.hotOfferItem::before {
+  content: "-15%";
+  position: absolute;
+  top: 5%;
+  right: -0.5px;
+  background-color: #F0B643;
+  padding: 1px 4px 2px 4px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.changePrise {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 18.54px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.ItemPicture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+del {
+  position: relative;
+  text-decoration: none;
+}
+
+del:before {
+  content: "";
+  width: 100%;
+  height: 0.2em;
+  background: #db7d76;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+s {
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 53px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 40px;
+}
+
+h2::before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  height: 9px;
+  width: 126px;
+  background-color: #F0B643;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.catalogPanel h3 {
+  font-size: 80px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.catalogPanel h4 {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.commentsListLine{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:106px;
+  justify-items:end;
+  width: 100%;
+}
+.commentsListLine:nth-child(2n){
+  justify-items:start;
+}
+.commentsList{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0 45px;
+}
+.CommentsItem{
+  padding: 14px 17px 13px 125px;
+  max-width: 336px;
+  height: 205px;
+  background: #F0B643;
+  position: relative;
+}
+.commentsListLine:nth-child(2n) .CommentsItem{
+  padding: 14px 125px 13px 17px;
+}
+.commentsListLine:nth-child(2n) .CommentsItem::after{
+  content: '';
+  position:absolute;
+  width: 172px;
+  height: 172px;
+  background: royalblue;
+  border-radius: 50%;
+  top:29px;
+  right: -64px;
+}
+.commentsListLine:nth-child(2n-1) .CommentsItem::before{
+  content: '';
+  position:absolute;
+  width: 172px;
+  height: 172px;
+  background: royalblue;
+  border-radius: 50%;
+  top:29px;
+  left: -64px;
+}
+ a:hover .buttonTransfer,
+ a:active .buttonTransfer{
+  background-color: #3E3E3E;
+}
+.linkItem a:hover .buttonTransfer,
+.linkItem a:active .buttonTransfer{
+  color: #3E3E3E;
+  background:  #F0B643;
+}
+.hotOfferItem:hover{
+  box-shadow: 0 0 15px rgba(227, 181, 63, 0.8);
+}
+.serchMore{
+  position: relative;
+}
+.serchMore::after{
+  content: '';
+  background-color: black;
+  position: absolute;
+  top:0.75em;
+  right: -107px;
+  width: 87px;
+  height: 4px;
+}

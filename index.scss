@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:#3E3E3E;
+}
+a{
+    text-decoration: none;
+}
+.MainBanner{
+    display: grid;
+    grid-template-columns: 1fr 2.7fr;
+    grid-gap:24px;
+    height: 608px;
+    h3,h1,h4{
+        color:#fff;
+    }
+    .Banner{
+        background-color: red;
+    }
+    .SpecialOffer{
+        background-color: red;
+        padding: 32px 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        .bannerDescription{
+            margin-top: 9px;
+            display: flex;
+            flex-direction: column;
+            gap:123px;
+            h3{
+                font-size: 80px;
+            }
+            h4{
+                font-size: 50px;
+            }
+        }
+    }
+}
+.buttonTransfer{
+    background-color: #fff;
+    color:#F0B643;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    width: 253px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.Banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.linkItem{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+//catalog
+.catalogPanel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    //grid-template-rows: 1fr 1fr;
+    grid-template-rows: 328px 328px;
+    grid-gap: 24px;
+    grid-template-areas:
+    "skeyts staff staff"
+    "skeyts clothes shoes";
+    .catalogPanelItem{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 30px 20px;
+        &.Skeyts{
+            background-color: #F0B643;
+            grid-area: skeyts;
+        }
+        &.Staff{
+            background-color: red;
+            grid-area: staff;
+        }
+        &.Сlothes{
+            background-color: #836d43;
+            grid-area: clothes;
+        }
+        &.Shoes{
+            background-color: #F0B643;
+            grid-area: shoes;
+        }
+    }
+}
+.conteiner{
+    padding: 0 80px;
+}
+.NewsItem{
+    background: #F0B643;
+}
+.NewsItemCart{
+    height: 712px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .NewsItemCartIllustration{
+        background-color: blueviolet;
+    }
+    .NewsItemCartDescription{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-bottom: 87px;
+        gap:98px;
+    }
+}
+.NewsItemCartHeading{
+    h3{
+        font-size: 70px;
+        text-transform: uppercase;
+    }
+    h4{
+        font-size: 40px;
+        text-transform: uppercase;
+        color:#fff;
+    }
+}
+.commentsList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:40px 106px;
+}
+
+
+.hotOffer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:24px;
+    h4{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 16px;
+    }
+}
+.hotOfferItem{
+    border: 1.5px solid #F0B643;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap:16px;
+    position: relative;
+    hr{
+        width: 214px;
+        border-color: #F0B643;
+    }
+    .line{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    &::before{
+        content: "-15%";
+        position: absolute;
+        top: 5%;
+        right: -0.5px;
+        background-color: #F0B643;
+        padding: 1px 4px 2px 4px;
+        font-size:  20px;
+        border-radius: 5px;
+    }
+}
+.changePrise{
+    display: flex;
+    gap:18.54px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.ItemPicture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+del{
+    position: relative;
+    text-decoration: none;
+}
+del:before {
+    content: "";
+    width: 100%;
+    height: 0.2em;
+    background: #db7d76;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: rotate(-15deg);
+}
+s{
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+h2{
+    margin-top:53px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 40px;
+}
+h2::before{
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    height: 9px;
+    width: 126px;
+    background-color: #F0B643;
+}
+h1{
+    font-size: 80px;
+}
+h3{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.catalogPanel h3{
+    font-size: 80px;
+    color:#fff;
+    text-transform: uppercase;
+}
+.catalogPanel h4{
+    font-size: 20px;
+    color:#fff;
+    text-transform: uppercase;
+}
